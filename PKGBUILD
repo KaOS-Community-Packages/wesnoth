@@ -13,10 +13,10 @@ source=(http://downloads.sourceforge.net/sourceforge/${pkgname}/${pkgname}-${pkg
 "wesnoth-boost.patch"
 "wesnothd.tmpfiles.conf"
 "wesnothd.service")
-sha256sums=('70404764370db05e496a4e033e09c26cdc47fa6558271d803a44c4ebb7b6efe8'
-'ccacb1049a71935392b46f919c4045b11936b232522ed2763561fbc0fb1e40b7'
-'1ae908f0608e9600088d3175c2276923e7fdccf825850d3f6e607bc197987e70'
-'d314dbefc72d09f2e3b1db15c4dc20873771f26df2360b39b55481deaeba00db')
+md5sums=('SKIP'
+ '2f77149a722823517be50e22b1511758'
+ '348136e6136294295daefcec771203e9'
+ 'c26cd0c5ee303fc46556deb6a2400d18')
 build() {
 cd ${srcdir}/${pkgname}-${pkgver}
 # Try this again in a new version when they fix their linking to boost
